@@ -15,3 +15,11 @@ This is an End-To-End Data Engineering Project on Real-Time Stock Market Data, u
 - Python
 
 ### Datasets
+we will use Polygon's Stock API to fetch real-time stock trade data. Polygon is a financial data platform that provides both real-time and historical market data for Stocks, Options, Forex, and Crypto. With access to this information, developers, investors, and financial institutions can gain valuable insights and make informed decisions. <li><a href='https://docs.aws.amazon.com/athena/latest/ug/getting-started.html](https://polygon.io/blog/polygon-io-with-python-for-stock-market-data/)'>Polygon Website link</a></li>
+
+#### Development Process
+1. Created EC2 Instance (AWS Linux AMI 2) to run python consumer file and host kafka <br>
+2. Installed Kafka and Java on ec2 Instance, and ran kafka and zookeper in background to test producer and consumer clients<br>
+3. Created S3 Bucket and IAM role to enable access to s3 from any instance <br>
+4. Created and ran crawler on AWS Glue. This includes creating a database, chosing a data source, amd creating an IAM role that allows Glue to access S3<br>
+5. Access Athena to preview data, with time the number of rows increases due to the cron job that runs hourly on aws lamdba.<br>
