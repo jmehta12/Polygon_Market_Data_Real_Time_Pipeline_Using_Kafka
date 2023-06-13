@@ -7,3 +7,11 @@ This is an End-To-End Data Engineering Project on Real-Time Stock Market Data, u
 - <b>AWS S3</b>: This is a highly scalable object storage service that stores data as objects within buckets. It is commonly used to store and distribute large media files, data backups and static website files. For this project it is used to store data streamed from kafka. <br><br>
 - <b>AWS Glue</b> :Glue Crawler is a fully managed service that automatically crawls your data sources, identifies data and infer schemas to create an AWS Glue Data Catalog. This Catalog is a fully managed metadata repository that makes it easy to discover and manage data that has been crawled.It allows us to query the data directly from S3 without loading it first. <br><br>
 - <b>AWS Athena</b>: Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using SQL commands. For this project it is used to analyze data in Glue Data Catalog or in other S3 buckets. <br><br>
+
+## Architecture
+<img src="images/architecture_V2.png">
+
+### Languages used
+- Python
+
+### Datasets
