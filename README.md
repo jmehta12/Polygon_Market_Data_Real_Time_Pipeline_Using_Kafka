@@ -30,6 +30,6 @@ Polygon Stock Market data  -> Fetch data using Polygon API & transform data -> m
 
 
 #### Necessary Files
-1. Kafka commands can be found <a href="">here</a>
-2. Generated app through SAM can be found <a href="https://github.com/priye-1/Real_time_End_to_End_Pipeline_using_Kafka/tree/master/kafka-lambda-app">here</a> This module contains the kafka producer and transformation code.
-3. Kafka Consumer file can be found <a href="https://github.com/priye-1/Real_time_End_to_End_Pipeline_using_Kafka/blob/master/kafka_consumer.py">here</a>
+1. Kafka commands can be found <a href="https://github.com/jmehta12/Polygon_Market_Data_Real_Time_Pipeline_Using_Kafka/blob/main/Command%20Line">here</a>
+2. Kafka Producer Code <a href="https://github.com/jmehta12/Polygon_Market_Data_Real_Time_Pipeline_Using_Kafka/blob/main/kafka_producer.ipynb">here</a> 
+3. Kafka Consumer file can be found <a href="https://github.com/jmehta12/Polygon_Market_Data_Real_Time_Pipeline_Using_Kafka/blob/main/kafka_consumer.ipynb">here</a>
