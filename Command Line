@@ -42,20 +42,14 @@
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
 
-***** increase memory for kafka server
-
-> export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"      
-> bin/kafka-server-start.sh -daemon config/server.properties
-
-
-
+  
 
 Start Kafka-server:
 ----------------------------------------
 # Open another window to start kafka
 # But first ssh to to your ec2 machine as done above
-
-
+***** increase memory for kafka server ****
+> export KAFKA_HEAP_OPTS="-Xmx256M -Xms128M"    
 > cd kafka_2.12-3.3.1
 > bin/kafka-server-start.sh config/server.properties
 
